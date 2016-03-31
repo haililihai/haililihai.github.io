@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-03-31T12:50:22.566Z</updated>
+  <updated>2016-03-31T14:50:49.725Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,33 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2016/03/31/hello-world/"/>
-    <id>http://yoursite.com/2016/03/31/hello-world/</id>
-    <published>2016-03-31T12:45:41.083Z</published>
-    <updated>2016-03-31T12:50:22.566Z</updated>
-    
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Lala</title>
@@ -56,31 +29,6 @@
     
       &lt;p&gt;然后发现 copy 要关闭服务了, lol….&lt;/p&gt;
 
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Linux下的词典（可划词翻译）</title>
-    <link href="http://yoursite.com/2015/05/05/Linux%E4%B8%8B%E7%9A%84%E8%AF%8D%E5%85%B8%EF%BC%88%E5%8F%AF%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91%EF%BC%89-1/"/>
-    <id>http://yoursite.com/2015/05/05/Linux下的词典（可划词翻译）-1/</id>
-    <published>2015-05-05T13:40:00.000Z</published>
-    <updated>2016-03-31T14:49:41.373Z</updated>
-    
-    <content type="html">&lt;p&gt;前段时间，有道联合Deepin出了Linux版本的&lt;a href=&quot;http://cidian.youdao.com/index-linux.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;有道词典&lt;/a&gt;。我立马下载试用后，不幸遇到些QT方面的问题，几天后想再次使用，折腾了一下才部分解决了问题。好歹界面出来了，也能查词了，但感觉词典内容、划词翻译功能还是不能很好满足我的需求。&lt;/p&gt;
-&lt;p&gt;看来，还是之前配置的Goldendict强大，实乃目前Linux上最好的词典软件：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;可添加多种格式的精美词典（包括发音库）&lt;/li&gt;
-&lt;li&gt;划词翻译功能十分不错&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;具体配置，可参考&lt;a href=&quot;http://blog.yuanbin.me/posts/2013/01/goldendictxia-san-da-you-zhi-ci-ku-shi-yong-xiao-ji.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这篇文章&lt;/a&gt;。&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;前段时间，有道联合Deepin出了Linux版本的&lt;a href=&quot;http://cidian.youdao.com/index-linux.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;有道词典&lt;/a&gt;。我立马下载试用后，不幸遇到些QT方面的问
     
     </summary>
     
@@ -127,49 +75,6 @@
     
       &lt;p&gt;实际工作中碰到一个问题，可以转化为指派问题，采用匈牙利算法。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://wiki.mbalib.com/wiki/%E5%8C%88%E7%89%99%E5%88%A9%E8%A7%A3%E6%B3%95&quot; target=&quot;_blank&quot;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>匈牙利算法</title>
-    <link href="http://yoursite.com/2015/04/24/%E5%8C%88%E7%89%99%E5%88%A9%E7%AE%97%E6%B3%95-1/"/>
-    <id>http://yoursite.com/2015/04/24/匈牙利算法-1/</id>
-    <published>2015-04-24T08:03:00.000Z</published>
-    <updated>2016-03-31T14:49:41.373Z</updated>
-    
-    <content type="html">&lt;p&gt;实际工作中碰到一个问题，可以转化为指派问题，采用匈牙利算法。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://wiki.mbalib.com/wiki/%E5%8C%88%E7%89%99%E5%88%A9%E8%A7%A3%E6%B3%95&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;匈牙利算法说明&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;实际工作中碰到一个问题，可以转化为指派问题，采用匈牙利算法。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://wiki.mbalib.com/wiki/%E5%8C%88%E7%89%99%E5%88%A9%E8%A7%A3%E6%B3%95&quot; target=&quot;_blank&quot;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Docker技术关注</title>
-    <link href="http://yoursite.com/2015/04/21/Docker%E6%8A%80%E6%9C%AF%E5%85%B3%E6%B3%A8-1/"/>
-    <id>http://yoursite.com/2015/04/21/Docker技术关注-1/</id>
-    <published>2015-04-21T14:18:00.000Z</published>
-    <updated>2016-03-31T14:49:41.373Z</updated>
-    
-    <content type="html">&lt;p&gt;InfoQ中的&lt;a href=&quot;http://www.infoq.com/cn/articles/docker-core-technology-preview&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;深入浅出Docker系列&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Docker官网的互动教程&lt;a href=&quot;https://www.docker.com/tryit/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Try it!&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Docker的&lt;a href=&quot;http://www.infoq.com/cn/articles/docker-open-source-road&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;开源之路&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;InfoQ中的&lt;a href=&quot;http://www.infoq.com/cn/articles/docker-core-technology-preview&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;深入浅出Docker系列&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;D
     
     </summary>
     
@@ -238,38 +143,6 @@
   
   <entry>
     <title>集群调度系统SGE的安装和配置</title>
-    <link href="http://yoursite.com/2015/04/10/%E9%9B%86%E7%BE%A4%E8%B0%83%E5%BA%A6%E7%B3%BB%E7%BB%9FSGE%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE-1/"/>
-    <id>http://yoursite.com/2015/04/10/集群调度系统SGE的安装和配置-1/</id>
-    <published>2015-04-10T09:50:00.000Z</published>
-    <updated>2016-03-31T14:49:41.375Z</updated>
-    
-    <content type="html">&lt;p&gt;SGE（最初为Sun Grid Engine，后来几经易主）算是比较老的一套集群调度系统了，网上可供参考的资料不是很多，但简单好使。集群管理软件Rocks也用SGE来分配任务，很多脑科学领域的软件（如FSL）也默认使用这个。&lt;/p&gt;
-&lt;p&gt;先来一篇&lt;a href=&quot;https://www.stat.auckland.ac.nz/~kimihia/sun-grid&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;概要的文章&lt;/a&gt;，从安装、使用到管理写得很详细。&lt;/p&gt;
-&lt;p&gt;安装的时候，一步步根据提示走就行了。之后，根据自己集群的情况（集群中机器配置不尽相同），建立多个主机组（hosts group）和多个队列（queue），并逐渐调整参数使集群的运行情况达到较优的水平。&lt;/p&gt;
-&lt;p&gt;自己建立队列（queue)的时候，修改了以下参数：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;hostlist：放上自己所需的主机组名，如 &lt;code&gt;@allhosts&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;seq_no：队列编号，可以用来表示优先级，0 代表最优先&lt;/li&gt;
-&lt;li&gt;priority：优先级，默认为0（最优先），可以调大使优先级降低&lt;/li&gt;
-&lt;li&gt;slots：表示所使用的主机CPU数，默认为1，可以设置一个统一的值，也可以针对单台主机设定各自的CPU数，如 &lt;code&gt;1,[host1=4],[host2=8]&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;shell：默认使用&lt;code&gt;/bin/csh&lt;/code&gt;，可以改为其他的shell，我改成了&lt;code&gt;/bin/sh&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;shell_start_mode：shell的起始模式，默认为&lt;code&gt;posix_complicant&lt;/code&gt;，我改成了&lt;code&gt;unix_bahavior&lt;/code&gt;，可以识别shell第一行的指定程序(如 &lt;code&gt;#!/bin/bash&lt;/code&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;其他的参数设置，可以参考自带的帮助或相关的手册。&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;SGE（最初为Sun Grid Engine，后来几经易主）算是比较老的一套集群调度系统了，网上可供参考的资料不是很多，但简单好使。集群管理软件Rocks也用SGE来分配任务，很多脑科学领域的软件（如FSL）也默认使用这个。&lt;/p&gt;
-&lt;p&gt;先来一篇&lt;a href=&quot;http
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>集群调度系统SGE的安装和配置</title>
     <link href="http://yoursite.com/2015/04/10/%E9%9B%86%E7%BE%A4%E8%B0%83%E5%BA%A6%E7%B3%BB%E7%BB%9FSGE%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE/"/>
     <id>http://yoursite.com/2015/04/10/集群调度系统SGE的安装和配置/</id>
     <published>2015-04-10T09:50:00.000Z</published>
@@ -302,26 +175,6 @@
   
   <entry>
     <title>【转载】Linux 技巧：让进程在后台可靠运行的几种方法</title>
-    <link href="http://yoursite.com/2015/04/10/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91Linux-%E6%8A%80%E5%B7%A7%EF%BC%9A%E8%AE%A9%E8%BF%9B%E7%A8%8B%E5%9C%A8%E5%90%8E%E5%8F%B0%E5%8F%AF%E9%9D%A0%E8%BF%90%E8%A1%8C%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95-1/"/>
-    <id>http://yoursite.com/2015/04/10/【转载】Linux-技巧：让进程在后台可靠运行的几种方法-1/</id>
-    <published>2015-04-10T01:30:00.000Z</published>
-    <updated>2016-03-31T14:49:41.373Z</updated>
-    
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.ibm.com/developerworks/cn/linux/l-cn-nohup/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Linux 技巧：让进程在后台可靠运行的几种方法&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://www.ibm.com/developerworks/cn/linux/l-cn-nohup/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Linux 技巧：让进程在后台可靠运行的几种方法&lt;/a&gt;&lt;/p&gt;
-
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>【转载】Linux 技巧：让进程在后台可靠运行的几种方法</title>
     <link href="http://yoursite.com/2015/04/10/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91Linux-%E6%8A%80%E5%B7%A7%EF%BC%9A%E8%AE%A9%E8%BF%9B%E7%A8%8B%E5%9C%A8%E5%90%8E%E5%8F%B0%E5%8F%AF%E9%9D%A0%E8%BF%90%E8%A1%8C%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/"/>
     <id>http://yoursite.com/2015/04/10/【转载】Linux-技巧：让进程在后台可靠运行的几种方法/</id>
     <published>2015-04-10T01:30:00.000Z</published>
@@ -334,39 +187,6 @@
     
       &lt;p&gt;&lt;a href=&quot;http://www.ibm.com/developerworks/cn/linux/l-cn-nohup/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Linux 技巧：让进程在后台可靠运行的几种方法&lt;/a&gt;&lt;/p&gt;
 
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>GPU计算知识汇总</title>
-    <link href="http://yoursite.com/2015/04/09/GPU%E8%AE%A1%E7%AE%97%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB-1/"/>
-    <id>http://yoursite.com/2015/04/09/GPU计算知识汇总-1/</id>
-    <published>2015-04-09T15:22:00.000Z</published>
-    <updated>2016-03-31T14:49:41.373Z</updated>
-    
-    <content type="html">&lt;p&gt;晚上了解了些GPU并行计算相关的内容，大致对其有了了解，在此记录下自己所搜集的内容：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;一个介绍CUDA的ppt（&lt;a href=&quot;http://haililihai.com/usr/uploads/2015/04/702800371.pdf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Cruz_gpuComputing09.pdf&lt;/a&gt;），很好的一个入门材料&lt;/li&gt;
-&lt;li&gt;一个&lt;a href=&quot;https://digitalerr0r.wordpress.com/2010/12/03/parallel-computing-using-the-gpu-tutorial-1-getting-started/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;系列博客文章&lt;/a&gt;，循序渐进展现具体的编程实践&lt;/li&gt;
-&lt;li&gt;NVIDIA的&lt;a href=&quot;http://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CUDA C 编程指导&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;两篇知乎的问答&lt;a href=&quot;http://www.zhihu.com/question/28079357&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;code&gt;NVIDIA CUDA、AMD stream、C++ AMP、OpenCL等GPU计算框架各有什么特点？&lt;/code&gt;&lt;/a&gt;和&lt;a href=&quot;http://www.zhihu.com/question/19780484&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;code&gt;CUDA和OpenCL有什么区别？&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;风辰的&lt;a href=&quot;http://blog.itpub.net/23057064/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;一系列CUDA博客文章&lt;/a&gt;，讲了CUDA的很多细节，也讲了很多如何进行GPU优化的策略与思考&lt;/li&gt;
-&lt;li&gt;Rachel Zhang的&lt;a href=&quot;http://blog.csdn.net/abcjennifer/article/details/42436727&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;一系列CUDA学习笔记&lt;/a&gt;，非常务实的一个博客，人气很高&lt;/li&gt;
-&lt;li&gt;NVIDIA公司的一个介绍OpenCL的ppt（&lt;a href=&quot;http://haililihai.com/usr/uploads/2015/04/1840979063.pdf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;06-intro_to_opencl.pdf&lt;/a&gt;）&lt;/li&gt;
-&lt;li&gt;MATLAB上的&lt;a href=&quot;http://cn.mathworks.com/discovery/matlab-gpu.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GPU计算&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.cac.cornell.edu/matlab/TechDocs/Examples/BestPracticesGPU.aspx&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MATLAB程序的GPU优化&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;一个比较OpenACC、CUDA和OpenCL的&lt;a href=&quot;http://www.drdobbs.com/parallel/comparing-opencl-cuda-and-openacc-video/240145156&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;视频&lt;/a&gt;及其&lt;a href=&quot;http://twimgs.com/ddj/images/article/2012/1212/keynote.pdf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ppt&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;晚上了解了些GPU并行计算相关的内容，大致对其有了了解，在此记录下自己所搜集的内容：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;一个介绍CUDA的ppt（&lt;a href=&quot;http://haililihai.com/usr/uploads/2015/04/702800371.pdf&quot; ta
     
     </summary>
     
@@ -437,56 +257,6 @@
   </entry>
   
   <entry>
-    <title>MATLAB 的并行计算</title>
-    <link href="http://yoursite.com/2015/04/09/MATLAB-%E7%9A%84%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97-1/"/>
-    <id>http://yoursite.com/2015/04/09/MATLAB-的并行计算-1/</id>
-    <published>2015-04-09T01:54:00.000Z</published>
-    <updated>2016-03-31T14:49:41.373Z</updated>
-    
-    <content type="html">&lt;p&gt;MATLAB主要使用两个自带的工具箱来实现并行计算：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Parallel Computing Toolbox (PCT) 可用来在单台机器上利用多个CPU核心来并行计算&lt;/li&gt;
-&lt;li&gt;Distributed Computing Server (DCS) 可以在一个集群上跨机器运行任务&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;DCS需要根据集群的调度系统（如LSF）来设置一些配置参数，而且需要购买授权来使用。PCT无需授权可直接在单台机器上运行。使用者一般会在单台机器上用PCT来实现并行计算后，再用DCS来进行跨机器的扩展。&lt;/p&gt;
-&lt;p&gt;自R2013b起，MATLAB使用了新的parpool程序来替换原先的matlabpool程序，用来开启关闭多核计算，详见&lt;a href=&quot;http://cn.mathworks.com/help/distcomp/release-notes.html#R2013b&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;更新列表&lt;/a&gt;。而且从R2014a起，不再限制单台最多12个worker了，可以充分利用服务器多核的优势了。&lt;/p&gt;
-&lt;p&gt;使用parfor是最简单的一种使用MATLAB并行功能的方法，要求parfor循环中的程序文件可独立，不耦合。相关的用法可以参考&lt;a href=&quot;https://rc.fas.harvard.edu/resources/documentation/software/parallel-matlab/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这篇文章&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;使用PCT的过程中有时会遇到无法打开matlabpool的情况——&lt;code&gt;Failed to locate and destroy old interactive jobs&lt;/code&gt;，通过查找&lt;a href=&quot;http://www.mathworks.com/matlabcentral/answers/92445-why-do-i-receive-errors-when-using-the-local-scheduler-in-the-parallel-computing-toolbox&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;解决方案&lt;/a&gt;，可以通过删除&lt;code&gt;local scheduler data&lt;/code&gt;（或&lt;code&gt;local cluster jobs&lt;/code&gt;）来解决。&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;MATLAB主要使用两个自带的工具箱来实现并行计算：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Parallel Computing Toolbox (PCT) 可用来在单台机器上利用多个CPU核心来并行计算&lt;/li&gt;
-&lt;li&gt;Distributed Computing Server (D
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>【转载】Bash Shell字符串操作小结</title>
-    <link href="http://yoursite.com/2015/04/02/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91Bash-Shell%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C%E5%B0%8F%E7%BB%93-1/"/>
-    <id>http://yoursite.com/2015/04/02/【转载】Bash-Shell字符串操作小结-1/</id>
-    <published>2015-04-02T09:00:00.000Z</published>
-    <updated>2016-03-31T14:49:41.373Z</updated>
-    
-    <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.centos.bz/2013/08/bash-shell-string-operate-summary/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Bash Shell字符串操作小结&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;https://www.centos.bz/2013/08/bash-shell-string-operate-summary/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Bash Shell字符串操作小结&lt;/a&gt;&lt;/p&gt;
-
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>【转载】Bash Shell字符串操作小结</title>
     <link href="http://yoursite.com/2015/04/02/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91Bash-Shell%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C%E5%B0%8F%E7%BB%93/"/>
     <id>http://yoursite.com/2015/04/02/【转载】Bash-Shell字符串操作小结/</id>
@@ -500,6 +270,350 @@
     
       &lt;p&gt;&lt;a href=&quot;https://www.centos.bz/2013/08/bash-shell-string-operate-summary/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Bash Shell字符串操作小结&lt;/a&gt;&lt;/p&gt;
 
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【转载】SSH的认证方式</title>
+    <link href="http://yoursite.com/2015/04/02/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91SSH%E7%9A%84%E8%AE%A4%E8%AF%81%E6%96%B9%E5%BC%8F/"/>
+    <id>http://yoursite.com/2015/04/02/【转载】SSH的认证方式/</id>
+    <published>2015-04-02T06:27:00.000Z</published>
+    <updated>2016-03-31T14:12:17.825Z</updated>
+    
+    <content type="html">&lt;p&gt;这篇博客&lt;a href=&quot;http://www.unixwiz.net/techtips/ssh-agent-forwarding.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;An Illustrated Guide to SSH Agent Forwarding&lt;/a&gt;很好地展示了SSH的四种认证方式。比较常用的是前两种，且第二种公钥认证方式中大家通常把passphrase空着，牺牲了一定的安全性，但极大地提高了便利性。通常，我也是这么做的:)&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这篇博客&lt;a href=&quot;http://www.unixwiz.net/techtips/ssh-agent-forwarding.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;An Illustrated Guide to SSH Agent 
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【转载】Typecho博客搬家</title>
+    <link href="http://yoursite.com/2015/04/02/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91Typecho%E5%8D%9A%E5%AE%A2%E6%90%AC%E5%AE%B6/"/>
+    <id>http://yoursite.com/2015/04/02/【转载】Typecho博客搬家/</id>
+    <published>2015-04-02T01:32:00.000Z</published>
+    <updated>2016-03-31T14:49:41.379Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.boke8.net/typecho-change-host.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Typecho博客搬家换空间方法教程&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://www.boke8.net/typecho-change-host.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Typecho博客搬家换空间方法教程&lt;/a&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【转载】vi中的替换操作</title>
+    <link href="http://yoursite.com/2015/04/01/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91vi%E4%B8%AD%E7%9A%84%E6%9B%BF%E6%8D%A2%E6%93%8D%E4%BD%9C/"/>
+    <id>http://yoursite.com/2015/04/01/【转载】vi中的替换操作/</id>
+    <published>2015-04-01T07:07:00.000Z</published>
+    <updated>2016-03-31T14:49:41.375Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://roclinux.cn/?p=700&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;vi中的替换艺术&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://andyss.blog.51cto.com/315552/131652&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;vim全局替换命令&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://roclinux.cn/?p=700&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;vi中的替换艺术&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://andyss.blog.51cto.com/315552/13165
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【转载】Linux的内存释放</title>
+    <link href="http://yoursite.com/2015/04/01/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91Linux%E7%9A%84%E5%86%85%E5%AD%98%E9%87%8A%E6%94%BE/"/>
+    <id>http://yoursite.com/2015/04/01/【转载】Linux的内存释放/</id>
+    <published>2015-04-01T03:04:00.000Z</published>
+    <updated>2016-03-31T14:49:41.376Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.linuxfly.org/post/320/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;手工释放linux内存&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://www.linuxfly.org/post/320/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;手工释放linux内存&lt;/a&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【转载】并行计算——GNU parallel的使用</title>
+    <link href="http://yoursite.com/2015/03/30/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97%E2%80%94%E2%80%94GNU-parallel%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>http://yoursite.com/2015/03/30/【转载】并行计算——GNU-parallel的使用/</id>
+    <published>2015-03-30T13:34:00.000Z</published>
+    <updated>2016-03-31T14:49:41.375Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://my.oschina.net/enyo/blog/271612&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GNU parallel使用指南中文版&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://my.oschina.net/enyo/blog/271612&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GNU parallel使用指南中文版&lt;/a&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【转载】Screen与Tmux的使用</title>
+    <link href="http://yoursite.com/2015/03/30/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91Screen%E4%B8%8ETmux%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>http://yoursite.com/2015/03/30/【转载】Screen与Tmux的使用/</id>
+    <published>2015-03-30T03:05:00.000Z</published>
+    <updated>2016-03-31T14:49:41.375Z</updated>
+    
+    <content type="html">&lt;p&gt;因为Tmux可分屏，且定制性高，自己在服务器端安装了Tmux。经常使用Tmux操作，末尾附上自己的配置。&lt;/p&gt;
+&lt;p&gt;不过，大部分服务器只有screen，因此，也转载一篇screen的命令使用。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://kumu-linux.github.io/blog/2013/08/06/tmux/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Linux下终端利器tmux&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;linux screen 命令详解&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;自己的tmux配置文件&lt;code&gt;~/.tmux.conf&lt;/code&gt;：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set -g default-terminal &amp;amp;quot;screen-256color&amp;amp;quot;
+set -g display-time 3000
+set -g escape-time 0
+set -g history-limit 65535
+set -g base-index 1
+set -g pane-base-index 1
+
+#-- bindkeys --#
+# prefix key (Ctrl+a)
+set -g prefix ^a
+unbind ^b
+bind a send-prefix
+
+# split window
+unbind &amp;apos;&amp;amp;quot;&amp;apos;
+# vertical split (prefix -)
+bind - splitw -v
+unbind %
+bind | splitw -h # horizontal split (prefix |)
+
+# select pane
+bind k selectp -U # above (prefix k)
+bind j selectp -D # below (prefix j)
+bind h selectp -L # left (prefix h)
+bind l selectp -R # right (prefix l)
+
+# resize pane
+bind -r ^k resizep -U 10 # upward (prefix Ctrl+k)
+bind -r ^j resizep -D 10 # downward (prefix Ctrl+j)
+bind -r ^h resizep -L 10 # to the left (prefix Ctrl+h)
+bind -r ^l resizep -R 10 # to the right (prefix Ctrl+l)
+
+# swap pane
+# swap with the previous pane (prefix Ctrl+u)
+bind ^u swapp -U
+# swap with the next pane (prefix Ctrl+d)
+bind ^d swapp -D
+
+# misc
+# select the last pane (prefix e)
+bind e lastp
+# select the last window (prefix Ctrl+e)
+bind ^e last
+# kill pane (prefix q)
+bind q killp
+# kill window (prefix Ctrl+q)
+bind ^q killw
+
+# copy mode
+# enter copy mode (prefix Escape)
+bind Escape copy-mode
+# paste buffer (prefix Ctrl+p)
+bind ^p pasteb
+# select (v)
+bind -t vi-copy v begin-selection
+# copy (y)
+bind -t vi-copy y copy-selection
+
+# zoom pane &amp;amp;lt;-&amp;amp;gt; window
+#http://tmux.svn.sourceforge.net/viewvc/tmux/trunk/examples/tmux-zoom.sh
+#bind ^z run &amp;amp;quot;tmux-zoom&amp;amp;quot;
+
+# app
+# htop (prefix !)
+#bind ! splitw htop
+# man (prefix m)
+bind m command-prompt &amp;amp;quot;splitw &amp;apos;exec man %%&amp;apos;&amp;amp;quot;
+
+# reload config (prefix r)
+bind r source ~/.tmux.conf \; display &amp;amp;quot;Configuration reloaded!&amp;amp;quot;
+
+setw -g mode-keys vi
+setw -g automatic-rename on
+
+#-- colorscheme --#
+#https://github.com/daethorian/conf-tmux/blob/master/colors/zenburn.conf
+
+#mouse
+set -g mouse-select-pane on
+set -g mouse-resize-pane on
+set -g mouse-select-window on
+setw -g mode-mouse on
+
+#pane
+set -g pane-border-fg white
+set -g pane-border-bg black
+set -g pane-active-border-fg green
+set -g pane-active-border-bg black
+
+# Set status bar
+set -g status-justify centre
+set -g status-utf8 on
+set -g status-fg white
+set -g status-bg colour237
+setw -g window-status-fg cyan
+setw -g window-status-bg default
+setw -g window-status-attr dim
+setw -g window-status-current-fg white
+setw -g window-status-current-bg red
+#setw -g window-status-current-attr bright
+
+set -g status-left &amp;apos;#[fg=green][#S]:#I:#P&amp;apos;
+set -g status-right &amp;apos;#[fg=yellow]#(uptime | egrep -o &amp;amp;quot;[0-9]+ users?, +load.*&amp;amp;quot;|perl -pe &amp;amp;quot;s| averages?||&amp;amp;quot;), %H:%M&amp;apos;
+set -g status-right-length 50
+
+# messages
+set -g message-attr bold
+set -g message-fg colour223
+set -g message-bg colour235
+set -g visual-activity on
+setw -g monitor-activity on
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;因为Tmux可分屏，且定制性高，自己在服务器端安装了Tmux。经常使用Tmux操作，末尾附上自己的配置。&lt;/p&gt;
+&lt;p&gt;不过，大部分服务器只有screen，因此，也转载一篇screen的命令使用。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://ku
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【转载】CentOS Linux下的VNC Server的配置</title>
+    <link href="http://yoursite.com/2015/03/30/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91CentOS-Linux%E4%B8%8B%E7%9A%84VNC-Server%E7%9A%84%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2015/03/30/【转载】CentOS-Linux下的VNC-Server的配置/</id>
+    <published>2015-03-30T01:42:00.000Z</published>
+    <updated>2016-03-31T14:49:41.375Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.ha97.com/4634.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CentOS Linux下的VNC Server的配置&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://www.ha97.com/4634.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CentOS Linux下的VNC Server的配置&lt;/a&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Linux下的云盘选择</title>
+    <link href="http://yoursite.com/2015/03/25/Linux%E4%B8%8B%E7%9A%84%E4%BA%91%E7%9B%98%E9%80%89%E6%8B%A9/"/>
+    <id>http://yoursite.com/2015/03/25/Linux下的云盘选择/</id>
+    <published>2015-03-25T12:14:00.000Z</published>
+    <updated>2016-03-31T14:49:41.376Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;一直在工作电脑上用Linux系统，不过却没有发现特别好的免费云盘客户端，只能根据各自的优缺点折中选择了&lt;strong&gt;Copy&lt;/strong&gt;和&lt;strong&gt;坚果云&lt;/strong&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;动机&quot;&gt;&lt;a href=&quot;#动机&quot; class=&quot;headerlink&quot; title=&quot;动机&quot;&gt;&lt;/a&gt;动机&lt;/h2&gt;&lt;p&gt;一直使用Mendeley当作我的科研文献管理软件，虽然它有2GB的免费空间可供PDF文件的存储，但没怎么使用。一是觉得容量可能不够，二是担心速度问题（不过，考虑到目前的云盘选择方案，可以考虑用用Mendeley自带的空间了）。当初的方案是，Mendeley只同步文献的元数据，附件（下载的PDF文献）保存到本地某个文件夹，然后用云盘同步这个文件夹。就是这么个动机，然后就开始挑选合适的云盘了。&lt;/p&gt;
+&lt;h2 id=&quot;可选方案&quot;&gt;&lt;a href=&quot;#可选方案&quot; class=&quot;headerlink&quot; title=&quot;可选方案&quot;&gt;&lt;/a&gt;可选方案&lt;/h2&gt;&lt;p&gt;选择条件如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;首先得支持Linux系统&lt;/li&gt;
+&lt;li&gt;服务稳定&lt;/li&gt;
+&lt;li&gt;同步功能&lt;/li&gt;
+&lt;li&gt;速度够快&lt;/li&gt;
+&lt;li&gt;容量够大&lt;/li&gt;
+&lt;li&gt;免费&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;符合条件的：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Dropbox&lt;/li&gt;
+&lt;li&gt;云诺&lt;/li&gt;
+&lt;li&gt;坚果云&lt;/li&gt;
+&lt;li&gt;快盘&lt;/li&gt;
+&lt;li&gt;115云&lt;/li&gt;
+&lt;li&gt;Copy&lt;/li&gt;
+&lt;li&gt;SpiderOak&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;国外的&lt;a href=&quot;https://www.google.com/drive/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;谷歌Google Drive&lt;/a&gt;、&lt;a href=&quot;https://onedrive.live.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;微软OneDrive&lt;/a&gt;等和国内的&lt;a href=&quot;https://pan.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度云盘&lt;/a&gt;、&lt;a href=&quot;https://kanbox.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;阿里酷盘&lt;/a&gt;、&lt;a href=&quot;http://www.weiyun.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;腾讯微云&lt;/a&gt;、&lt;a href=&quot;http://yunpan.360.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;360微云&lt;/a&gt;等云盘大部分没有官方的Linux客户端（有人做了百度云盘的Linux客户端，&lt;a href=&quot;https://github.com/LiuLang/bcloud&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;bcloud&lt;/a&gt;，但没有同步功能；有人弄了OneDrive的Linux客户端，&lt;a href=&quot;https://github.com/xybu/onedrive-d&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;onedrive-d&lt;/a&gt;，要求Python3；有个&lt;a href=&quot;https://github.com/Grive/grive&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Grive&lt;/a&gt;的第三方Google Drive客户端，但同步依旧是个问题）。即使有Mac版本的，Android版本的，也没有Linux版本的，不得不说，Linux桌面版市场依然是个小众的市场。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.dropbox.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Dropbox&lt;/a&gt;是国外著名的云盘（同步盘），可是国内网络环境不好，且免费版只有2GB空间，速度也不甚理想，放弃。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;云诺，以前就是用的这款同步盘软件。在Linux这个小众市场挺有名，容量界面速度都还不错。可是，天下没有一直免费的午餐，14年公司政策变了，不再免费了，资料也都被驱赶了，现在都没个正经的官网了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://jianguoyun.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;坚果云&lt;/a&gt;，和之前的云诺齐名的同步盘。和云诺不同，它不设容量限制，但限流量。免费的用户，一个月有1GB的上传量和3GB的下载量。因为主要给企业、单位、团队做存储服务，商业模式比云诺的健康得多。服务稳定，速度还行，界面也不错，就是限流量。国内不多的坚持做Linux云盘客户端的了，坚持！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://haililihai.com/usr/uploads/2015/04/1495595968.png&quot; alt=&quot;DeepinScreenshot20150406222800.png&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.kuaipan.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;快盘&lt;/a&gt;，以前是金山的，14年9月被迅雷收购了。和Ubuntu Kylin合作开发了Linux客户端。有很多送容量的活动，容量比其他的都多很多（我现在的容量有500多GB），但总觉得多出来的容量虚无缥缈。云诺倒下之后，就改用它了。最初还算不错，但14年底开始好像不管用了，无法同步，客户端一直显示Scanning。光有容量不行啊，界面也一般，放弃了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://pc.115.com/linux.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;115云&lt;/a&gt;，前几年很火的网盘，自从12年接上级通知关闭分享功能后，大家都渐渐转移到百度云盘上了，像云诺一样，免费的产品让免费的用户失望甚至感到伤害之后，就开始被鄙视和遗忘了。好在雨林木风同学（赖霖枫）弄过开源的Ymlf OS（后来改称StartOS了，基于Ubuntu），跨平台的115很早就推出了Linux版本。不过，一直没有尝试，因为发现了下面这个工具。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://copy.com?r=EAonqv&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Copy&lt;/a&gt;，是国外Barracuda（梭子鱼）公司旗下的云盘。梭子鱼公司主要做企业的安全与存储解决方案，市场份额很大。免费版的有15GB容量（通过邀请最多可以达到25GB），单个文件大小无限制，速度也还不错，桌面移动各个平台都有，而且Linux版本的界面不错。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://haililihai.com/usr/uploads/2015/03/747446679.png&quot; alt=&quot;Copy&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://spideroak.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SpiderOak&lt;/a&gt;，主打安全和隐私。免费容量2GB，没有尝试。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;结语&quot;&gt;&lt;a href=&quot;#结语&quot; class=&quot;headerlink&quot; title=&quot;结语&quot;&gt;&lt;/a&gt;结语&lt;/h2&gt;&lt;p&gt;综合各方面考虑，最后选择了Copy，且坚果云当做备胎。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;一直在工作电脑上用Linux系统，不过却没有发现特别好的免费云盘客户端，只能根据各自的优缺点折中选择了&lt;strong&gt;Copy&lt;/strong&gt;和&lt;strong&gt;坚果云&lt;/strong&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;动机&quot;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【转载】Apache原理与php的交互</title>
+    <link href="http://yoursite.com/2015/03/24/%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91Apache%E5%8E%9F%E7%90%86%E4%B8%8Ephp%E7%9A%84%E4%BA%A4%E4%BA%92/"/>
+    <id>http://yoursite.com/2015/03/24/【转载】Apache原理与php的交互/</id>
+    <published>2015-03-24T13:27:00.000Z</published>
+    <updated>2016-03-31T14:49:41.379Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://blog.csdn.net/hguisu/article/details/7395181&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Apache运行机制剖析&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.cnblogs.com/hfutwyy/p/4293273.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Apache与PHP的交互&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://blog.csdn.net/hguisu/article/details/7395181&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Apache运行机制剖析&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;st
     
     </summary>
     
