@@ -3,21 +3,33 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hello World | Hexo</title>
+  <title>MATLAB 的并行计算 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+  <meta name="description" content="MATLAB主要使用两个自带的工具箱来实现并行计算：
+
+Parallel Computing Toolbox (PCT) 可用来在单台机器上利用多个CPU核心来并行计算
+Distributed Computing Server (DCS) 可以在一个集群上跨机器运行任务
+
+DCS需要根据集群的调度系统（如LSF）来设置一些配置参数，而且需要购买授权来使用。PCT无需授权可直接在单台机器上运行。使用">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2016/03/31/hello-world/index.html">
+<meta property="og:title" content="MATLAB 的并行计算">
+<meta property="og:url" content="http://yoursite.com/2015/04/09/MATLAB-的并行计算-1/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2016-03-31T12:50:22.566Z">
+<meta property="og:description" content="MATLAB主要使用两个自带的工具箱来实现并行计算：
+
+Parallel Computing Toolbox (PCT) 可用来在单台机器上利用多个CPU核心来并行计算
+Distributed Computing Server (DCS) 可以在一个集群上跨机器运行任务
+
+DCS需要根据集群的调度系统（如LSF）来设置一些配置参数，而且需要购买授权来使用。PCT无需授权可直接在单台机器上运行。使用">
+<meta property="og:updated_time" content="2016-03-31T14:49:41.373Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="MATLAB 的并行计算">
+<meta name="twitter:description" content="MATLAB主要使用两个自带的工具箱来实现并行计算：
+
+Parallel Computing Toolbox (PCT) 可用来在单台机器上利用多个CPU核心来并行计算
+Distributed Computing Server (DCS) 可以在一个集群上跨机器运行任务
+
+DCS需要根据集群的调度系统（如LSF）来设置一些配置参数，而且需要购买授权来使用。PCT无需授权可直接在单台机器上运行。使用">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -66,10 +78,10 @@ Quick">
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-MATLAB-的并行计算-1" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2016/03/31/hello-world/" class="article-date">
-  <time datetime="2016-03-31T12:45:41.083Z" itemprop="datePublished">2016-03-31</time>
+    <a href="/2015/04/09/MATLAB-的并行计算-1/" class="article-date">
+  <time datetime="2015-04-09T01:54:00.000Z" itemprop="datePublished">2015-04-09</time>
 </a>
     
   </div>
@@ -80,7 +92,7 @@ Quick">
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      MATLAB 的并行计算
     </h1>
   
 
@@ -88,20 +100,20 @@ Quick">
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <p>MATLAB主要使用两个自带的工具箱来实现并行计算：</p>
+<ul>
+<li>Parallel Computing Toolbox (PCT) 可用来在单台机器上利用多个CPU核心来并行计算</li>
+<li>Distributed Computing Server (DCS) 可以在一个集群上跨机器运行任务</li>
+</ul>
+<p>DCS需要根据集群的调度系统（如LSF）来设置一些配置参数，而且需要购买授权来使用。PCT无需授权可直接在单台机器上运行。使用者一般会在单台机器上用PCT来实现并行计算后，再用DCS来进行跨机器的扩展。</p>
+<p>自R2013b起，MATLAB使用了新的parpool程序来替换原先的matlabpool程序，用来开启关闭多核计算，详见<a href="http://cn.mathworks.com/help/distcomp/release-notes.html#R2013b" target="_blank" rel="external">更新列表</a>。而且从R2014a起，不再限制单台最多12个worker了，可以充分利用服务器多核的优势了。</p>
+<p>使用parfor是最简单的一种使用MATLAB并行功能的方法，要求parfor循环中的程序文件可独立，不耦合。相关的用法可以参考<a href="https://rc.fas.harvard.edu/resources/documentation/software/parallel-matlab/" target="_blank" rel="external">这篇文章</a>。</p>
+<p>使用PCT的过程中有时会遇到无法打开matlabpool的情况——<code>Failed to locate and destroy old interactive jobs</code>，通过查找<a href="http://www.mathworks.com/matlabcentral/answers/92445-why-do-i-receive-errors-when-using-the-local-scheduler-in-the-parallel-computing-toolbox" target="_blank" rel="external">解决方案</a>，可以通过删除<code>local scheduler data</code>（或<code>local cluster jobs</code>）来解决。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/03/31/hello-world/" data-id="cimgefn1f000ctcu06lnzd7ha" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2015/04/09/MATLAB-的并行计算-1/" data-id="cimgefn0m0009tcu0djwqxcw7" class="article-share-link">Partager</a>
       
       
     </footer>
@@ -110,10 +122,19 @@ Quick">
     
 <nav id="article-nav">
   
+    <a href="/2015/04/09/MATLAB-的并行计算/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Récent</strong>
+      <div class="article-nav-title">
+        
+          MATLAB 的并行计算
+        
+      </div>
+    </a>
   
-    <a href="/2016/02/24/Lala/" id="article-nav-older" class="article-nav-link-wrap">
+  
+    <a href="/2015/04/02/【转载】Bash-Shell字符串操作小结-1/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Ancien</strong>
-      <div class="article-nav-title">Lala</div>
+      <div class="article-nav-title">【转载】Bash Shell字符串操作小结</div>
     </a>
   
 </nav>

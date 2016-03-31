@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>GPU计算知识汇总 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="晚上了解了些GPU并行计算相关的内容，大致对其有了了解，在此记录下自己所搜集的内容：
+
+一个介绍CUDA的ppt（Cruz_gpuComputing09.pdf），很好的一个入门材料
+一个系列博客文章，循序渐进展现具体的编程实践
+NVIDIA的CUDA C 编程指导
+两篇知乎的问答NVIDIA CUDA、AMD stream、C++ AMP、OpenCL等GPU计算框架各有什么特点？和CUDA和O">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GPU计算知识汇总">
+<meta property="og:url" content="http://yoursite.com/2015/04/09/GPU计算知识汇总/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="晚上了解了些GPU并行计算相关的内容，大致对其有了了解，在此记录下自己所搜集的内容：
+
+一个介绍CUDA的ppt（Cruz_gpuComputing09.pdf），很好的一个入门材料
+一个系列博客文章，循序渐进展现具体的编程实践
+NVIDIA的CUDA C 编程指导
+两篇知乎的问答NVIDIA CUDA、AMD stream、C++ AMP、OpenCL等GPU计算框架各有什么特点？和CUDA和O">
+<meta property="og:updated_time" content="2016-03-31T14:12:17.824Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="GPU计算知识汇总">
+<meta name="twitter:description" content="晚上了解了些GPU并行计算相关的内容，大致对其有了了解，在此记录下自己所搜集的内容：
+
+一个介绍CUDA的ppt（Cruz_gpuComputing09.pdf），很好的一个入门材料
+一个系列博客文章，循序渐进展现具体的编程实践
+NVIDIA的CUDA C 编程指导
+两篇知乎的问答NVIDIA CUDA、AMD stream、C++ AMP、OpenCL等GPU计算框架各有什么特点？和CUDA和O">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-GPU计算知识汇总" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/04/09/GPU计算知识汇总/" class="article-date">
+  <time datetime="2015-04-09T15:22:00.000Z" itemprop="datePublished">2015-04-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      GPU计算知识汇总
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>晚上了解了些GPU并行计算相关的内容，大致对其有了了解，在此记录下自己所搜集的内容：</p>
+<ul>
+<li>一个介绍CUDA的ppt（<a href="http://haililihai.com/usr/uploads/2015/04/702800371.pdf" target="_blank" rel="external">Cruz_gpuComputing09.pdf</a>），很好的一个入门材料</li>
+<li>一个<a href="https://digitalerr0r.wordpress.com/2010/12/03/parallel-computing-using-the-gpu-tutorial-1-getting-started/" target="_blank" rel="external">系列博客文章</a>，循序渐进展现具体的编程实践</li>
+<li>NVIDIA的<a href="http://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html" target="_blank" rel="external">CUDA C 编程指导</a></li>
+<li>两篇知乎的问答<a href="http://www.zhihu.com/question/28079357" target="_blank" rel="external"><code>NVIDIA CUDA、AMD stream、C++ AMP、OpenCL等GPU计算框架各有什么特点？</code></a>和<a href="http://www.zhihu.com/question/19780484" target="_blank" rel="external"><code>CUDA和OpenCL有什么区别？</code></a></li>
+<li>风辰的<a href="http://blog.itpub.net/23057064/" target="_blank" rel="external">一系列CUDA博客文章</a>，讲了CUDA的很多细节，也讲了很多如何进行GPU优化的策略与思考</li>
+<li>Rachel Zhang的<a href="http://blog.csdn.net/abcjennifer/article/details/42436727" target="_blank" rel="external">一系列CUDA学习笔记</a>，非常务实的一个博客，人气很高</li>
+<li>NVIDIA公司的一个介绍OpenCL的ppt（<a href="http://haililihai.com/usr/uploads/2015/04/1840979063.pdf" target="_blank" rel="external">06-intro_to_opencl.pdf</a>）</li>
+<li>MATLAB上的<a href="http://cn.mathworks.com/discovery/matlab-gpu.html" target="_blank" rel="external">GPU计算</a></li>
+<li><a href="http://www.cac.cornell.edu/matlab/TechDocs/Examples/BestPracticesGPU.aspx" target="_blank" rel="external">MATLAB程序的GPU优化</a></li>
+<li>一个比较OpenACC、CUDA和OpenCL的<a href="http://www.drdobbs.com/parallel/comparing-opencl-cuda-and-openacc-video/240145156" target="_blank" rel="external">视频</a>及其<a href="http://twimgs.com/ddj/images/article/2012/1212/keynote.pdf" target="_blank" rel="external">ppt</a></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/04/09/GPU计算知识汇总/" data-id="cimgefmzx0003tcu08wy5wwaj" class="article-share-link">Partager</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/04/09/GPU计算知识汇总-1/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Récent</strong>
+      <div class="article-nav-title">
+        
+          GPU计算知识汇总
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2015/04/09/MATLAB-的并行计算/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Ancien</strong>
+      <div class="article-nav-title">MATLAB 的并行计算</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">March 2015</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Articles récents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/03/31/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2016/02/24/Lala/">Lala</a>
+          </li>
+        
+          <li>
+            <a href="/2015/05/05/Linux下的词典（可划词翻译）-1/">Linux下的词典（可划词翻译）</a>
+          </li>
+        
+          <li>
+            <a href="/2015/05/05/Linux下的词典（可划词翻译）/">Linux下的词典（可划词翻译）</a>
+          </li>
+        
+          <li>
+            <a href="/2015/04/24/匈牙利算法/">匈牙利算法</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 John Doe<br>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>【转载】Screen与Tmux的使用 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="因为Tmux可分屏，且定制性高，自己在服务器端安装了Tmux。经常使用Tmux操作，末尾附上自己的配置。
+不过，大部分服务器只有screen，因此，也转载一篇screen的命令使用。
+
+Linux下终端利器tmux
+linux screen 命令详解
+
+自己的tmux配置文件~/.tmux.conf：
+set -g default-terminal &amp;amp;quot;screen-256colo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【转载】Screen与Tmux的使用">
+<meta property="og:url" content="http://yoursite.com/2015/03/30/【转载】Screen与Tmux的使用/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="因为Tmux可分屏，且定制性高，自己在服务器端安装了Tmux。经常使用Tmux操作，末尾附上自己的配置。
+不过，大部分服务器只有screen，因此，也转载一篇screen的命令使用。
+
+Linux下终端利器tmux
+linux screen 命令详解
+
+自己的tmux配置文件~/.tmux.conf：
+set -g default-terminal &amp;amp;quot;screen-256colo">
+<meta property="og:updated_time" content="2016-03-31T14:49:41.375Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="【转载】Screen与Tmux的使用">
+<meta name="twitter:description" content="因为Tmux可分屏，且定制性高，自己在服务器端安装了Tmux。经常使用Tmux操作，末尾附上自己的配置。
+不过，大部分服务器只有screen，因此，也转载一篇screen的命令使用。
+
+Linux下终端利器tmux
+linux screen 命令详解
+
+自己的tmux配置文件~/.tmux.conf：
+set -g default-terminal &amp;amp;quot;screen-256colo">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-【转载】Screen与Tmux的使用" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/03/30/【转载】Screen与Tmux的使用/" class="article-date">
+  <time datetime="2015-03-30T03:05:00.000Z" itemprop="datePublished">2015-03-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      【转载】Screen与Tmux的使用
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>因为Tmux可分屏，且定制性高，自己在服务器端安装了Tmux。经常使用Tmux操作，末尾附上自己的配置。</p>
+<p>不过，大部分服务器只有screen，因此，也转载一篇screen的命令使用。</p>
+<blockquote>
+<p><a href="http://kumu-linux.github.io/blog/2013/08/06/tmux/" target="_blank" rel="external">Linux下终端利器tmux</a></p>
+<p><a href="http://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html" target="_blank" rel="external">linux screen 命令详解</a></p>
+</blockquote>
+<p>自己的tmux配置文件<code>~/.tmux.conf</code>：</p>
+<pre><code>set -g default-terminal &amp;quot;screen-256color&amp;quot;
+set -g display-time 3000
+set -g escape-time 0
+set -g history-limit 65535
+set -g base-index 1
+set -g pane-base-index 1
+
+#-- bindkeys --#
+# prefix key (Ctrl+a)
+set -g prefix ^a
+unbind ^b
+bind a send-prefix
+
+# split window
+unbind &apos;&amp;quot;&apos;
+# vertical split (prefix -)
+bind - splitw -v
+unbind %
+bind | splitw -h # horizontal split (prefix |)
+
+# select pane
+bind k selectp -U # above (prefix k)
+bind j selectp -D # below (prefix j)
+bind h selectp -L # left (prefix h)
+bind l selectp -R # right (prefix l)
+
+# resize pane
+bind -r ^k resizep -U 10 # upward (prefix Ctrl+k)
+bind -r ^j resizep -D 10 # downward (prefix Ctrl+j)
+bind -r ^h resizep -L 10 # to the left (prefix Ctrl+h)
+bind -r ^l resizep -R 10 # to the right (prefix Ctrl+l)
+
+# swap pane
+# swap with the previous pane (prefix Ctrl+u)
+bind ^u swapp -U
+# swap with the next pane (prefix Ctrl+d)
+bind ^d swapp -D
+
+# misc
+# select the last pane (prefix e)
+bind e lastp
+# select the last window (prefix Ctrl+e)
+bind ^e last
+# kill pane (prefix q)
+bind q killp
+# kill window (prefix Ctrl+q)
+bind ^q killw
+
+# copy mode
+# enter copy mode (prefix Escape)
+bind Escape copy-mode
+# paste buffer (prefix Ctrl+p)
+bind ^p pasteb
+# select (v)
+bind -t vi-copy v begin-selection
+# copy (y)
+bind -t vi-copy y copy-selection
+
+# zoom pane &amp;lt;-&amp;gt; window
+#http://tmux.svn.sourceforge.net/viewvc/tmux/trunk/examples/tmux-zoom.sh
+#bind ^z run &amp;quot;tmux-zoom&amp;quot;
+
+# app
+# htop (prefix !)
+#bind ! splitw htop
+# man (prefix m)
+bind m command-prompt &amp;quot;splitw &apos;exec man %%&apos;&amp;quot;
+
+# reload config (prefix r)
+bind r source ~/.tmux.conf \; display &amp;quot;Configuration reloaded!&amp;quot;
+
+setw -g mode-keys vi
+setw -g automatic-rename on
+
+#-- colorscheme --#
+#https://github.com/daethorian/conf-tmux/blob/master/colors/zenburn.conf
+
+#mouse
+set -g mouse-select-pane on
+set -g mouse-resize-pane on
+set -g mouse-select-window on
+setw -g mode-mouse on
+
+#pane
+set -g pane-border-fg white
+set -g pane-border-bg black
+set -g pane-active-border-fg green
+set -g pane-active-border-bg black
+
+# Set status bar
+set -g status-justify centre
+set -g status-utf8 on
+set -g status-fg white
+set -g status-bg colour237
+setw -g window-status-fg cyan
+setw -g window-status-bg default
+setw -g window-status-attr dim
+setw -g window-status-current-fg white
+setw -g window-status-current-bg red
+#setw -g window-status-current-attr bright
+
+set -g status-left &apos;#[fg=green][#S]:#I:#P&apos;
+set -g status-right &apos;#[fg=yellow]#(uptime | egrep -o &amp;quot;[0-9]+ users?, +load.*&amp;quot;|perl -pe &amp;quot;s| averages?||&amp;quot;), %H:%M&apos;
+set -g status-right-length 50
+
+# messages
+set -g message-attr bold
+set -g message-fg colour223
+set -g message-bg colour235
+set -g visual-activity on
+setw -g monitor-activity on
+</code></pre>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/03/30/【转载】Screen与Tmux的使用/" data-id="cimgefn2c000mtcu0yy2xjol2" class="article-share-link">Partager</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/03/30/【转载】并行计算——GNU-parallel的使用/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Récent</strong>
+      <div class="article-nav-title">
+        
+          【转载】并行计算——GNU parallel的使用
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2015/03/30/【转载】CentOS-Linux下的VNC-Server的配置/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Ancien</strong>
+      <div class="article-nav-title">【转载】CentOS Linux下的VNC Server的配置</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">March 2015</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Articles récents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/03/31/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2016/02/24/Lala/">Lala</a>
+          </li>
+        
+          <li>
+            <a href="/2015/05/05/Linux下的词典（可划词翻译）-1/">Linux下的词典（可划词翻译）</a>
+          </li>
+        
+          <li>
+            <a href="/2015/05/05/Linux下的词典（可划词翻译）/">Linux下的词典（可划词翻译）</a>
+          </li>
+        
+          <li>
+            <a href="/2015/04/24/匈牙利算法/">匈牙利算法</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 John Doe<br>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
